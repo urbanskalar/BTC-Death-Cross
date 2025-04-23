@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  btc-death-cross:
+    build: .
+    container_name: btc_death_cross
+    restart: unless-stopped
