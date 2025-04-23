@@ -1,2 +1,2 @@
-@reboot  /usr/bin/python3 /app/app.py >> /var/log/cron.log 2>&1
-0 8 * * * /usr/bin/python3 /app/app.py >> /var/log/cron.log 2>&1
+@reboot  /usr/bin/python3 /app/deathCross.py >> /var/log/cron.log 2>&1
+0 8 * * * /usr/bin/python3 /app/deathCross.py >> /var/log/cron.log 2>&1
