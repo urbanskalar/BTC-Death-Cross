@@ -5,6 +5,7 @@ WORKDIR /app
 RUN apt-get update
 RUN apt-get -y install cron python3 python3-pip
 
+ENV PIP_BREAK_SYSTEM_PACKAGES=1
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
