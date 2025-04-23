@@ -1,2 +1,2 @@
 # BTC-Death-Cross
-Detect Upcoming BTC Death Cross and notify via ntfy.sh
+Detect the upcoming BTC Death Cross and notify via ntfy.sh
