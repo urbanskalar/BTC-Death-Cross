@@ -3,3 +3,6 @@ services:
     build: .
     container_name: btc_death_cross
     restart: unless-stopped
+    environment:
+        - TZ=Europe/Ljubljana
+
